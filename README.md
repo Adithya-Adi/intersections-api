@@ -11,7 +11,7 @@ The Intersections API is a Node.js application that provides an API endpoint for
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/intersections-api.git
+   git clone https://github.com/Adithya-Adi/intersections-api.git
    ```
 2. Install the dependencies:
    ```bash
@@ -20,7 +20,7 @@ The Intersections API is a Node.js application that provides an API endpoint for
 4. Set up environment variables:
    Create a .env file in the root directory and configure the following variables:
    ```bash
-   AUTH_TOKEN="Your_Auth_Token"
+   AUTH_TOKEN="password"
    ```
 6. Start the server:
    ```bash
@@ -51,7 +51,7 @@ Authentication
 The API endpoint is protected with header-based authentication. Include the Authorization header with the value of the configured authentication token.
 
 ```bash
-Authorization: Your_Auth_Token
+Authorization: password
 ```
 
 ## Testing the API with Postman
@@ -59,7 +59,7 @@ To test the API using Postman:
 - Launch Postman.
 - Create a new POST request.
 - Set the request URL to http://localhost:3000/api/intersections.
-- Add the Authorization header with the Your_Auth_Token.
+- Add the Authorization header with the value as password.
 - In the request body, provide a GeoJSON linestring in the following format:
 ```bash
 {
